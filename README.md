@@ -19,9 +19,9 @@ As Tags por padrão tem suas permissões definidas com **leaftags.tag.nome**, po
 
 ## Comandos
 ### Comando /tag:
-* /tag reload - Recarregará a configuração e as tags.
+* /tag reload - Recarregará a configuração.
 * /tag (tag) - Setará a tag selecionada.
-* /tags ou /tag - Mostrará suas tags disponíveis
+* /tags ou /tag - Mostrará suas tags disponíveis.
 
 ## Configuração
 
