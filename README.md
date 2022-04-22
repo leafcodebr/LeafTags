@@ -29,7 +29,7 @@ As Tags por padrão tem suas permissões definidas com **leaftags.tag.nome**, po
   <summary>config.yml</summary>
 
 ```yml
-  Mensagens:
+Mensagens:
   # Replaces disponíveis: #
   # %tag% - Nome da Tag: "LEAF" #
   # %tag_color% - Cor da Tag: "&a" #
@@ -41,7 +41,6 @@ As Tags por padrão tem suas permissões definidas com **leaftags.tag.nome**, po
     - "op:&a&lTAGS &f/tag reload &a- &fRecarregar as Tags."
   sem_permissao:
     - "&c&lERRO &fVocê não tem permissão para usar a tag %tag_prefix%&f!"
-    - "&fÉ necessário você ter a permissão &c&l%tag_permission%&f!"
   tag_definida:
     - "&a&lFEITO &fSua tag foi setada para %tag_color%%tag%&f!"
 Opcoes:
@@ -89,3 +88,10 @@ Tags:
       - "player"
       - "jogador"
 ```
+</details>
+
+## Prints
+![configurado](https://cdn.discordapp.com/attachments/957444296733253653/966900700011450448/unknown.png)
+![configurado](https://cdn.discordapp.com/attachments/957444296733253653/966901569310310400/unknown.png)
+![configurado](https://cdn.discordapp.com/attachments/957444296733253653/966902307629436968/unknown.png)
+![configurado](https://cdn.discordapp.com/attachments/957444296733253653/966901846721568828/unknown.png)
