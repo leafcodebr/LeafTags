@@ -12,7 +12,7 @@ Caso queira ter todas as funcionalidades do plugin disponíveis, utilize um Spig
 
 ## Configuração
 * Mensagens, tags e opções configuraveis.
-* ⚠️ Compatibilidade com PlaceholderAPI em breve disponível.
+* Compatibilidade com PlaceholderAPI **disponível**!
 
 ## Permissões
 As Tags por padrão tem suas permissões definidas com **leaftags.tag.nome**, porém é fácilmente modificável! 
@@ -24,11 +24,9 @@ As Tags por padrão tem suas permissões definidas com **leaftags.tag.nome**, po
 * /tags ou /tag - Mostrará suas tags disponíveis.
 
 ## Configuração
-
-<details>
-  <summary>config.yml</summary>
-
 ```yml
+# File-tags - Arquivo que será usado para as tags.
+File-tags: "default.yml"
 Mensagens:
   # Replaces disponíveis: #
   # %tag% - Nome da Tag: "LEAF" #
@@ -38,7 +36,7 @@ Mensagens:
   comando_preset:
     - "&a&lTAGS &fUtilize: /tag (tag)!"
     - "&a&lTAGS &fSuas tags disponíveis: %tags%&f."
-    - "op:&a&lTAGS &f/tag reload &a- &fRecarregar as Tags."
+    - "op:&a&lTAGS &f/tag reload &a- &fRecarregar config."
   sem_permissao:
     - "&c&lERRO &fVocê não tem permissão para usar a tag %tag_prefix%&f!"
   tag_definida:
@@ -51,46 +49,8 @@ Opcoes:
     titulo: "%tag_color%%tag%"
     subtitulo: "&fTag alterada com sucesso!"
   # Som - Quando alterar a Tag, tocará um som. (Deixe vazio para desativar)
-  Som: "WOOD_CLICK"
-Tags:
-  Admin:
-    nome: "ADMIN"
-    cor: "&4"
-    ladder: 1
-    prefix: "&4&lADMIN &4"
-    suffix: "&7[STAFF]"
-    permissao: "leaftags.tag.admin"
-    variaveis:
-      - "dono"
-  Vip:
-    nome: "VIP"
-    cor: "&a"
-    ladder: 2
-    prefix: "&a&lVIP &a"
-    suffix: "&7[VIPS]"
-    permissao: "leaftags.tag.vip"
-    variaveis: []
-  Membro:
-    # Nome - Nome da Tag (Exemplo: Leaf)
-    nome: "Membro"
-    # Cor - Cor da Tag (Exemplo: &a)
-    cor: "&7"
-    # Ladder - A posição na Tablist.
-    ladder: 30
-    # Prefix - Visual da Tag quando aplicada (Exemplo: &a&lLEAF&a Player)
-    prefix: "&7"
-    # Suffix - Em breve compatibilidade com placeholderAPI
-    suffix: "&a[LEAF]"
-    # Permissão - Permissão necessária para usar a tag (Caso esteja vazio, não precisará de permissão)
-    permissao: ""
-    # Variáveis - Formas de usar a tag (Exemplo: /tag [variavel])
-    variaveis:
-      - "player"
-      - "jogador"
+  Som: "CHICKEN_EGG_POP"
 ```
-</details>
-
-## Prints
 ![configurado](https://cdn.discordapp.com/attachments/957444296733253653/966900700011450448/unknown.png)
 ![configurado](https://cdn.discordapp.com/attachments/957444296733253653/966901569310310400/unknown.png)
 ![configurado](https://cdn.discordapp.com/attachments/957444296733253653/966902307629436968/unknown.png)
