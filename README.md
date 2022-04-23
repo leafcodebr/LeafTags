@@ -24,7 +24,7 @@ As Tags por padrão terão suas permissões definidas com **leaftags.tag.nome**,
 * /tags ou /tag - Mostrará suas tags disponíveis.
 
 ## Configuração
-Os arquivos de tags fica na pasta 'tags' dentro da pasta LeafTags!
+Os arquivos de tags ficam na pasta 'tags' dentro da pasta LeafTags!
 ```yml
 # File-tags - Arquivo que será usado para as tags.
 File-tags: "default.yml"
