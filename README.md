@@ -15,7 +15,7 @@ Caso queira ter todas as funcionalidades do plugin disponíveis, utilize um Spig
 * Compatibilidade com PlaceholderAPI **disponível**!
 
 ## Permissões
-As Tags por padrão tem suas permissões definidas com **leaftags.tag.nome**, porém é fácilmente modificável! 
+As Tags por padrão terão suas permissões definidas com **leaftags.tag.nome**, porém é fácilmente modificável! 
 
 ## Comandos
 ### Comando /tag:
