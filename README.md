@@ -3,7 +3,7 @@
 
 
 ## Compatibilidade
-Compatibilidade disponível: **A partir de 1_7_R4**
+Compatibilidade disponível: **1_7_R4, 1_8_R3 +**
 
 Caso queira ter todas as funcionalidades do plugin disponíveis, utilize um Spigot a partir de 1.8 por utilizarem 1_8_R3 ou superior. (Versões acima de 1_8_R3 podem não funcionar corretamente por enquanto)
 
@@ -55,7 +55,6 @@ Opcoes:
     subtitulo: "&fTag alterada com sucesso!"
   # Som - Quando alterar a Tag, tocará um som. (Deixe vazio para desativar)
   Som: "CHICKEN_EGG_POP"
-
 ```
 ![configurado](https://cdn.discordapp.com/attachments/957444296733253653/966900700011450448/unknown.png)
 ![configurado](https://cdn.discordapp.com/attachments/957444296733253653/966901569310310400/unknown.png)
