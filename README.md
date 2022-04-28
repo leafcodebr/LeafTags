@@ -8,6 +8,8 @@ Compatibilidade disponível: **1_7_R4, 1_8_R3 +**
 Caso queira ter todas as funcionalidades do plugin disponíveis, utilize um Spigot a partir de 1.8 por utilizarem 1_8_R3 ou superior. (Versões acima de 1_8_R3 podem não funcionar corretamente por enquanto)
 
 ## Dependencia
+É necessário o plugin [LeafCore](https://github.com/leafcodebr/LeafCore/releases/tag/Downloads) para o funcionamento.
+
 ⚠️ Caso você utilize o Spigot 1.7.10, será necessário ter o plugin **[NametagEdit](https://www.spigotmc.org/resources/nametagedit.3836/)** em seu servidor.
 
 ## Configuração
