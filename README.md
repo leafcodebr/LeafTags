@@ -28,7 +28,7 @@ As Tags por padrão terão suas permissões definidas com **leaftags.tag.nome**,
 ## Configuração
 Os arquivos de tags ficam na pasta 'tags' dentro da pasta LeafTags!
 ```yml
-# File-tags - Arquivo que será usado para as tags.
+# File-tags: Arquivo que será usado para as tags.
 File-tags: "default.yml"
 Mensagens:
   # Replaces disponíveis: #
@@ -37,25 +37,23 @@ Mensagens:
   # %tag_prefix% - Prefixo da Tag: "&5&lLEAFTAGS" #
   # %tag_permission%" - Permissão da Tag: "leaftags.tag.leaf" #
   comando_preset:
-    - "&a&lLEAFTAGS &fUtilize: /tag (tag)!"
-    - "&a&lLEAFTAGS &fSuas tags disponíveis: %tags%&f."
-    - "op:&a&lLEAFTAGS &f/tag reload &a- &fRecarregar config."
+    - "%leaf_prefix% &fSuas tags: &f%tags%."
   sem_permissao:
-    - "&c&lLEAFTAGS &fVocê não tem permissão para usar a tag %tag_prefix%&f!"
+    - "%leaf_prefix% &fVocê não tem permissão para usar a tag %tag_prefix%&f!"
   tag_definida:
-    - "&a&lLEAFTAGS &fSua tag foi setada para %tag_color%%tag%&f!"
+    - "%leaf_prefix% &fSua tag foi setada para %tag_color%%tag%&f!"
   tag_nao_encontrada:
-    - "&c&lLEAFTAGS &fTag '%tag%' não foi encontrada!"
+    - "%leaf_prefix% &fTag '%tag%' não foi encontrada!"
   tag_ja_definida:
-    - "&a&lLEAFTAGS &fVocê já está usando esta tag!"
+    - "%leaf_prefix% &fVocê já está usando esta tag!"
 Opcoes:
-  # Titulo - Quando alterar a Tag, aparecerá um titulo na tela.
+  # Titulo: Quando alterar a Tag, aparecerá um titulo na tela.
   Titulo:
-    # enable - True para ativar, False para desativar.
+    # Enable: 'true' para ativar e 'false' para desativar.
     enable: true
     titulo: "%tag_color%%tag%"
-    subtitulo: "&fTag alterada com sucesso!"
-  # Som - Quando alterar a Tag, tocará um som. (Deixe vazio para desativar)
+    subtitulo: "&fTag alterada!"
+  # Som: Ao utilizar o comando, usará um som (Deixe vazio para desativar)
   Som: "CHICKEN_EGG_POP"
 ```
 ![configurado](https://cdn.discordapp.com/attachments/957444296733253653/966900700011450448/unknown.png)
