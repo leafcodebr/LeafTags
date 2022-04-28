@@ -47,8 +47,10 @@ Opcoes:
     enable: true
     titulo: "%tag_color%%tag%"
     subtitulo: "&fTag alterada!"
-  # Som: Ao utilizar o comando, usará um som (Deixe vazio para desativar)
+  # Som: Ao utilizar o comando, tocará um som (Deixe vazio para desativar)
   Som: "CHICKEN_EGG_POP"
+  # Som_tag: Ao alterar a tag, tocará um som (Deixe vazio para desativar)
+  Som_tag: "LEVEL_UP"
 ```
 ![configurado](https://cdn.discordapp.com/attachments/957444296733253653/966900700011450448/unknown.png)
 ![configurado](https://cdn.discordapp.com/attachments/957444296733253653/966901569310310400/unknown.png)
