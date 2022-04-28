@@ -51,7 +51,12 @@ Opcoes:
   # Som_tag: Ao alterar a tag, tocará um som (Deixe vazio para desativar)
   Som_tag: "LEVEL_UP"
 ```
-![configurado](https://cdn.discordapp.com/attachments/957444296733253653/966900700011450448/unknown.png)
-![configurado](https://cdn.discordapp.com/attachments/957444296733253653/966901569310310400/unknown.png)
-![configurado](https://cdn.discordapp.com/attachments/957444296733253653/966902307629436968/unknown.png)
-![configurado](https://cdn.discordapp.com/attachments/957444296733253653/966901846721568828/unknown.png)
+![configurado](https://cdn.discordapp.com/attachments/967197530351865886/969372484451336222/javaw_zREkkr5Ox4.png)
+![configurado](https://cdn.discordapp.com/attachments/967197530351865886/969372484963016774/javaw_rIFJtg3AAM.png)
+![configurado](https://cdn.discordapp.com/attachments/967197530351865886/969372485390848020/javaw_rbQzfuiFCf.png)
+![configurado](https://cdn.discordapp.com/attachments/967197530351865886/969372485604737074/javaw_ahlf6jzvwS.png)
+![configurado](https://cdn.discordapp.com/attachments/967197530351865886/969372485818662942/javaw_Ua9bHyklgf.png)
+![configurado](https://cdn.discordapp.com/attachments/967197530351865886/969372486007414794/javaw_9ANh07N2VA.png)
+![configurado](https://cdn.discordapp.com/attachments/967197530351865886/969372486632361984/javaw_bPrklne5HK.png)
+![configurado](https://cdn.discordapp.com/attachments/967197530351865886/969372484757491722/javaw_Ssv4kY7d8B.png)
+![configurado](https://cdn.discordapp.com/attachments/967197530351865886/969372486280048700/javaw_SzqYBRg2dp.png)
