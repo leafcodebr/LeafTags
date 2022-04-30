@@ -62,3 +62,4 @@ Opcoes:
 
 ![configurado](https://cdn.discordapp.com/attachments/967197530351865886/969372484757491722/javaw_Ssv4kY7d8B.png)
 ![configurado](https://cdn.discordapp.com/attachments/967197530351865886/969372486280048700/javaw_SzqYBRg2dp.png)
+![configurado](https://cdn.discordapp.com/attachments/967197530351865886/970103939137683506/unknown.png)
