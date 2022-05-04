@@ -14,9 +14,10 @@
 As Tags por padrão terão suas permissões definidas como **leaftags.tag.nome**, porém é fácilmente modificável! 
 
 ## Comandos
-### Comando /tag:
-* /tag (tag) - Setará a tag selecionada.
-* /tags ou /tag - Mostrará suas tags disponíveis.
+|Comando         |Descrição                      |Permissão                    |
+|----------------|-------------------------------|-----------------------------|
+|/tags ou /tag        |Exibe as tags do jogador |`Nenhuma`           |
+|/tag (tag)    |Selecione uma Tag disponível |`Nenhuma`       |
 
 ## Configuração
 Os arquivos de tags ficam na pasta 'tags' dentro da pasta LeafTags!
