@@ -19,6 +19,22 @@ As Tags por padrão terão suas permissões definidas como **leaftags.tag.nome**
 |/tags ou /tag        |Exibe as tags do jogador |`Nenhuma`           |
 |/tag (tag)    |Selecione uma Tag disponível |`Nenhuma`       |
 
+## Placeholders
+```yml
+#
+# Placeholders disponíveis (PlaceholderAPI):
+# %leaftags_player_tag_name% -> Nome da tag atual do jogador.
+# %leaftags_player_tag_prefix% -> Prefix da tag atual do jogador.
+# %leaftags_player_tag_suffix% -> Suffix da tag atual do jogador.
+# %leaftags_player_tag_color% -> Cor da tag atual do jogador.
+#
+# %leaftags_player_maxtag_name% -> Nome da tag máxima do jogador.
+# %leaftags_player_maxtag_prefix% -> Prefix da tag máxima do jogador.
+# %leaftags_player_maxtag_suffix% -> Suffix da tag máxima do jogador.
+# %leaftags_player_maxtag_color% -> Cor da tag máxima do jogador.
+#
+```
+
 ## Configuração
 Os arquivos de tags ficam na pasta 'tags' dentro da pasta LeafTags!
 ```yml
