@@ -1,5 +1,5 @@
 # 💜 LeafTags
-* Versões disponíveis: **1.7, 1.8+**.
+* Versões disponíveis: **Acima de 1.7.10**.
 * Versões testadas: **1.7.10, 1.8.8, 1.16.5**.
 
 ## Dependencia
@@ -11,44 +11,48 @@
 * Mensagens, tags e opções configuraveis.
 * Compatibilidade com PlaceholderAPI **disponível**!
 
-## Permissões
-As Tags por padrão terão suas permissões definidas como **leaftags.tag.nome**, porém é fácilmente modificável! 
-
 ## Comandos
 |Comando         |Descrição                      |Permissão                    |
 |----------------|-------------------------------|-----------------------------|
-|/tags ou /tag        |Exibe as tags do jogador |`Nenhuma`           |
+|/tag ou /tags        |Exibe as tags do jogador |`Nenhuma`           |
 |/tag (tag)    |Selecione uma Tag disponível |`Nenhuma`       |
 
 ## Placeholders
-```yml
-#
-# Placeholders disponíveis (PlaceholderAPI):
-# %leaftags_player_tag_name% -> Nome da tag atual do jogador.
-# %leaftags_player_tag_prefix% -> Prefix da tag atual do jogador.
-# %leaftags_player_tag_suffix% -> Suffix da tag atual do jogador.
-# %leaftags_player_tag_color% -> Cor da tag atual do jogador.
-#
-# %leaftags_player_maxtag_name% -> Nome da tag máxima do jogador.
-# %leaftags_player_maxtag_prefix% -> Prefix da tag máxima do jogador.
-# %leaftags_player_maxtag_suffix% -> Suffix da tag máxima do jogador.
-# %leaftags_player_maxtag_color% -> Cor da tag máxima do jogador.
-#
-```
+|Placeholder        |Descrição                      |Resultado/Exemplo                    |
+|----------------|-------------------------------|-----------------------------|
+|%leaftags_player_tag_name%        |Nome da tag atual do jogador.|`Admin`           |
+|%leaftags_player_tag_colorx%    |Cor da tag atual do jogador. |`&c`       |
+|%leaftags_player_tag_prefix%    |Prefixo da tag atual do jogador. |`&c[Admin] &c`       |
+|%leaftags_player_tag_suffix%    |Suffix da tag atual do jogador. |`&6[PVP]`       |
+|%leaftags_player_tag_preset%    |Preset da tag atual do jogador. |`&cAdmin`       |
+
+A tag máxima é utilizada por exemplo para mostrar o cargo do jogador.
+
+Para pegar a informação da tag máxima do jogador, troque o `_tag_` das placeholders para `_maxtag_`. **(SIMPLES E FÁCIL)**
 
 ## Configuração
-Os arquivos de tags ficam na pasta 'tags' dentro da pasta LeafTags!
+Os arquivos de tags ficarão na pasta 'tags' dentro da pasta LeafTags!
 ```yml
+MySQL:
+  Host: 'localhost'
+  Usuario: 'root'
+  Senha: ''
+  Porta: 3306
+  Database: 'leaf_tags'
+  Tabela: 'leaf_tags'
 # File-tags: Arquivo que será usado para as tags.
 File-tags: "default.yml"
+# Log-tag: Irá anunciar no console caso alguém mude de tag.
+Log-tag: true
 Mensagens:
   # Replaces disponíveis: #
   # %tag% - Nome da Tag: "LEAF" #
+  # %tags% - Lista de tags (comando_preset)
   # %tag_color% - Cor da Tag: "&a" #
   # %tag_prefix% - Prefixo da Tag: "&5&lLEAFTAGS" #
   # %tag_permission%" - Permissão da Tag: "leaftags.tag.leaf" #
   comando_preset:
-    - "%leaf_prefix% &fSuas tags: &f%tags%."
+    - "%leaf_prefix% &fSuas tags: %tags%"
   sem_permissao:
     - "%leaf_prefix% &fVocê não tem permissão para usar a tag %tag_prefix%&f!"
   tag_definida:
@@ -57,6 +61,13 @@ Mensagens:
     - "%leaf_prefix% &fTag '%tag%' não foi encontrada!"
   tag_ja_definida:
     - "%leaf_prefix% &fVocê já está usando esta tag!"
+  "mundo_bloqueado":
+    - "&cVocê não pode alterar sua tag neste mundo!"
+Tag_lista:
+  # Visual: Visual da tag na lista do /tags.
+  Visual: "%tag_color%%tag%"
+  # Virgula: Como será a virgula separando as tags na lista do /tags.
+  Virgula: "&f,"
 Opcoes:
   # Titulo: Quando alterar a Tag, aparecerá um titulo na tela.
   Titulo:
@@ -68,16 +79,10 @@ Opcoes:
   Som: "CHICKEN_EGG_POP"
   # Som_tag: Ao alterar a tag, tocará um som (Deixe vazio para desativar)
   Som_tag: "LEVEL_UP"
+  # Tag_click Caso esteja 'true', as tags poderão ser selecionadas por click.
+  Tag_click: true
+# Block-Mundos: Caso o jogador esteja em algum destes mundos, ele não poderá alterar a tag.
+Block-Mundos:
+  - "partida01"
 ```
-![configurado](https://cdn.discordapp.com/attachments/967197530351865886/969372484451336222/javaw_zREkkr5Ox4.png)
-![configurado](https://cdn.discordapp.com/attachments/967197530351865886/969372484963016774/javaw_rIFJtg3AAM.png)
-![configurado](https://cdn.discordapp.com/attachments/967197530351865886/969372485390848020/javaw_rbQzfuiFCf.png)
-![configurado](https://cdn.discordapp.com/attachments/967197530351865886/969372485604737074/javaw_ahlf6jzvwS.png)
-![configurado](https://cdn.discordapp.com/attachments/967197530351865886/969372485818662942/javaw_Ua9bHyklgf.png)
-![configurado](https://cdn.discordapp.com/attachments/967197530351865886/969372486007414794/javaw_9ANh07N2VA.png)
-![configurado](https://cdn.discordapp.com/attachments/967197530351865886/969372486632361984/javaw_bPrklne5HK.png)
 
-
-![configurado](https://cdn.discordapp.com/attachments/967197530351865886/969372484757491722/javaw_Ssv4kY7d8B.png)
-![configurado](https://cdn.discordapp.com/attachments/967197530351865886/969372486280048700/javaw_SzqYBRg2dp.png)
-![configurado](https://cdn.discordapp.com/attachments/967197530351865886/970103939137683506/unknown.png)
