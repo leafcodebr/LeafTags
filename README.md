@@ -5,8 +5,6 @@
 ## Dependencia
 É necessário o plugin [LeafCore](https://github.com/leafcodebr/LeafCore/releases/tag/Downloads) para o funcionamento.
 
-⚠️ Caso você utilize o Spigot 1.7.10, será necessário ter o plugin **[NametagEdit](https://www.spigotmc.org/resources/nametagedit.3836/)** em seu servidor.
-
 ## Configuração
 * Mensagens, tags e opções configuraveis.
 * Compatibilidade com PlaceholderAPI **disponível**!
