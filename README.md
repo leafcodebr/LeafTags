@@ -1,6 +1,6 @@
 # 💜 LeafTags
 * Versões disponíveis: **1.8**.
-* Versões testadas: **1.8.8, 1.16.5**.
+* Versões testadas: **1.8.8, 1.15.2, 1.16.5, 1.18.2**.
 
 ## Dependencia
 É necessário o plugin [LeafCore](https://github.com/leafcodebr/LeafCore/releases/tag/Downloads) para o funcionamento.
