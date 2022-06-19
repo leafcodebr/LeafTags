@@ -13,6 +13,10 @@
 |/tag ou /tags        |Exibe as tags do jogador |`Nenhuma`           |
 |/tag (tag)    |Selecione uma Tag disponível |`Nenhuma`       |
 
+## Prefix
+* Minecraft `1.8.x até 1.12.x` tem o máximo de `16 digitos`.
+* Minecraft `1.13.x até 1.19.x` tem o máximo de `256 digitos`.
+
 ## Placeholders
 |Placeholder        |Descrição                      |Resultado/Exemplo                    |
 |----------------|-------------------------------|-----------------------------|
