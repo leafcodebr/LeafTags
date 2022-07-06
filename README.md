@@ -1,6 +1,11 @@
 # LeafTags
 Um sistema completo de prefixos para servidores de Minecraft, com várias opções configuráveis. 
 
+## Versões
+Este plugin funciona em todas as versões a partir da 1.8.
+
+## Tutorial
+Este plugin possui um [tutorial oficial](https://youtu.be/Ip27Vz8Jq9Y?t=171) em nosso canal no YouTube!
 
 ## Comandos
 
@@ -15,8 +20,7 @@ Você pode encontrar o plugin pronto para baixar [**aqui**](https://github.com/l
 
 ## Configuração
 
-O plugin conta com vários arquivos de configuração, que pode ser facilmente manipulado por qualquer pessoa, além de você
-poder moldar ao seu modo.
+O plugin possui as configurações bem fáceis e completas. Você pode ver as configurações padrões [clicando aqui](https://github.com/leafcodebr/LeafTags/tree/main/configs).
 
 ## Placeholders
 
@@ -34,15 +38,29 @@ OBS: Caso queira pegar informações da **tag máxima** do jogador, altere "`_ta
 - "{leaf_tag}" ~ preset da tag atual do jogador.
 - "{leaf_maxtag}" ~ preset da tag máxima do jogador.
 
+## Compatibilidade
+- PermissionsEx/LuckPerms - alterar prefix/tag quando ter o cargo alterado.
+
+## Informações
+- Caso o jogador perca a permissão da tag atual, terá-lo alterado para a maior tag(tag máxima) que ele possui. 
+- Cores Hex (ou RGB) - a partir da 1.16 é permitido utilizar cores #hex **(&#00000)**
+
 ## Dependências
 
-- [LeafCore]https://github.com/leafcodebr/LeafCore/releases) - necessário para o funcionamento de todos os plugins Leaf.
+- [LeafCore](https://github.com/leafcodebr/LeafCore/releases) - necessário para o funcionamento de todos os plugins Leaf.
+- [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) - para aplicar placeholders e registra-los. (OPCIONAL)
 
 ## API - para desenvolvedores.
 **Exemplo de uso:**
 ```java
 /* Retornará a API para uso */
 LeafTagsAPI api = LeafTags.getAPI();
+
+/* Fará que quando o jogador entrar, não terá o prefix setado */
+api.setDisableAutoTag(true);
+
+/* Fará que o comando /tag não funcione (RECOMENDADO DESATIVA-LO PELA CONFIG.YML). */
+api.setDisableCommand(true);
 
 /* Retornará a tag máxima do jogador */
 Tag maxTag = api.getMaxTag(player);
