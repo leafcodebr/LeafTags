@@ -1,0 +1,121 @@
+Tags:
+  Dono:
+    nome: "Dono"
+    cor: "&4"
+    prefix: "&4[Dono] &4"
+    suffix: ""
+    preset: "&4Dono"
+    posicao: 1
+    permissao: "leaftags.tag.dono"
+    variaveis:
+      - "owner"
+      - "subdono"
+  Admin:
+    nome: "Admin"
+    cor: "&c"
+    prefix: "&c[Admin] &c"
+    suffix: ""
+    preset: "&cAdmin"
+    posicao: 2
+    permissao: "leaftags.tag.admin"
+    variaveis:
+      - "adm"
+  ModPlus:
+    nome: "Mod+"
+    cor: "&5"
+    prefix: "&5[Mod+] &5"
+    suffix: ""
+    preset: "&5Moderador+"
+    posicao: 3
+    permissao: "leaftags.tag.modplus"
+    variaveis: []
+  ModGC:
+    nome: "ModGC"
+    cor: "&5"
+    prefix: "&5[ModGC] &5"
+    suffix: ""
+    preset: "&5ModeradorGC"
+    posicao: 4
+    permissao: "leaftags.tag.modgc"
+    variaveis: []
+  Mod:
+    nome: "Mod"
+    cor: "&5"
+    prefix: "&5[Mod] &5"
+    suffix: ""
+    preset: "&5Moderador"
+    posicao: 5
+    permissao: "leaftags.tag.mod"
+    variaveis: []
+  TrialMod:
+    nome: "TrialMod"
+    cor: "&d"
+    prefix: "&d[TrialMod] &d"
+    suffix: ""
+    preset: "&dTrial Mod."
+    posicao: 6
+    permissao: "leaftags.tag.trialmod"
+    variaveis:
+      - "trial"
+  Helper:
+    nome: "Ajudante"
+    cor: "&b"
+    prefix: "&b[Ajudante] &b"
+    suffix: ""
+    preset: "&bAjudante"
+    posicao: 7
+    permissao: "leaftags.tag.ajudante"
+    variaveis:
+      - "ajuda"
+  YoutuberPlus:
+    nome: "Youtuber+"
+    cor: "&3"
+    prefix: "&3[YT+] &3"
+    suffix: ""
+    preset: "&3Youtuber+"
+    posicao: 8
+    permissao: "leaftags.tag.ytplus"
+    variaveis:
+      - "ytplus"
+      - "yt+"
+  Youtuber:
+    nome: "Youtuber"
+    cor: "&b"
+    prefix: "&b[YT] &b"
+    suffix: ""
+    preset: "&bYoutuber"
+    posicao: 9
+    permissao: "leaftags.tag.yt"
+    variaveis:
+      - "yt"
+      - "youtube"
+  MVPPlus:
+    nome: "MVP&6+"
+    cor: "&b"
+    prefix: "&b[MVP&6+&b] "
+    suffix: ""
+    preset: "&bMVP&6+"
+    posicao: 10
+    permissao: "leaftags.tag.mvp"
+    variaveis: []
+  Vip:
+    nome: "Vip"
+    cor: "&a"
+    prefix: "&a[VIP] &a"
+    suffix: ""
+    preset: "&aVIP"
+    posicao: 11
+    permissao: "leaftags.tag.vip"
+    variaveis: []
+  Membro:
+    nome: "Membro"
+    cor: "&7"
+    prefix: "&7"
+    suffix: ""
+    preset: "&7Membro"
+    posicao: 26
+    permissao: ""
+    variaveis:
+      - "player"
+      - "padrao"
+      - "jogador"
