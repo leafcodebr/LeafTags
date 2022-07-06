@@ -42,6 +42,7 @@ OBS: Caso queira pegar informações da **tag máxima** do jogador, altere "`_ta
 - PermissionsEx/LuckPerms - alterar prefix/tag quando ter o cargo alterado.
 
 ## Informações
+- É possível utilizar o banco de dados MySQL para armazenar a ultima tag utilizada do jogador. [Recomendado para BungeeCord]
 - Caso o jogador perca a permissão da tag atual, terá-lo alterado para a maior tag(tag máxima) que ele possui. 
 - Cores Hex (ou RGB) - a partir da 1.16 é permitido utilizar cores #hex **(&#00000)**
 
