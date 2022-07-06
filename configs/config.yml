@@ -1,0 +1,65 @@
+MySQL:
+  Host: 'localhost'
+  Usuario: 'root'
+  Senha: ''
+  Porta: 3306
+  Database: 'leaf_tags'
+  Tabela: 'leaf_tags'
+# File-tags: Arquivo que será usado para as tags.
+File-tags: "default.yml"
+# Log-tag: Irá anunciar no console caso alguém mude de tag.
+Log-tag: false
+Mensagens:
+  # Replaces disponíveis: #
+  # %tag% - Nome da Tag: "LEAF" #
+  # %tags% - Lista de tags (comando_preset)
+  # %tag_color% - Cor da Tag: "&a" #
+  # %tag_prefix% - Prefixo da Tag: "&5&lLEAFTAGS" #
+  # %tag_permission%" - Permissão da Tag: "leaftags.tag.leaf" #
+  comando_preset:
+    - "%leaf_prefix% &fSuas tags: %tags%"
+  sem_permissao:
+    - "%leaf_prefix% &fVocê não tem permissão para usar a tag %tag_prefix%&f!"
+  tag_definida:
+    - "%leaf_prefix% &fSua tag foi setada para %tag_color%%tag%&f!"
+  tag_nao_encontrada:
+    - "%leaf_prefix% &fTag '%tag%' não foi encontrada!"
+  tag_ja_definida:
+    - "%leaf_prefix% &fVocê já está usando esta tag!"
+  "mundo_bloqueado":
+    - "&cVocê não pode alterar sua tag neste mundo!"
+Tag_lista:
+  # Visual: Visual da tag na lista do /tags.
+  Visual: "%tag_color%%tag%"
+  # Virgula: Como será a virgula separando as tags na lista do /tags.
+  Virgula: "&f,"
+Opcoes:
+  # Titulo: Quando alterar a Tag, aparecerá um titulo na tela.
+  Titulo:
+    # Enable: 'true' para ativar e 'false' para desativar.
+    enable: true
+    titulo: "%tag_color%%tag%"
+    subtitulo: "&fTag alterada!"
+  # Som: Ao utilizar o comando, tocará um som (Deixe vazio para desativar)
+  Som: "CHICKEN_EGG_POP"
+  # Som_tag: Ao alterar a tag, tocará um som (Deixe vazio para desativar)
+  Som_tag: "LEVEL_UP"
+  # Tag_click: 'true' -> as tags poderão ser selecionadas por click.
+  Tag_click: true
+  # Ultima_tag: 'true' -> fará que sempre que o jogador entrar
+  # automaticamente usará a ultima tag selecionada.
+  Ultima_tag: true
+Comandos:
+  TagCommand:
+    # Variaveis: Outros métodos de usar o '/tag', exemplos:
+    # '/prefix', '/prefixes'. (Necessário reiniciar)
+    Variaveis:
+      - "prefixes"
+      - "prefix"
+    # Permissao: Deixe vazio para que não seja necessário permissão para usar o comando.
+    Permissao: ''
+    # Ativado: 'false' -> Fará que o comando não seja registrado. (Necessário reiniciar)
+    Ativado: true
+# Block-Mundos: Caso o jogador esteja em algum destes mundos, ele não poderá alterar a tag.
+Block-Mundos:
+  - "partida01"
