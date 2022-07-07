@@ -1,9 +1,6 @@
 # LeafTags
 Um sistema completo de prefixos para servidores de Minecraft, com várias opções configuráveis. 
 
-## Versões
-Este plugin funciona em todas as versões a partir da 1.8.
-
 ## Tutorial
 Este plugin possui um [tutorial oficial](https://youtu.be/Ip27Vz8Jq9Y?t=171) em nosso canal no YouTube!
 
