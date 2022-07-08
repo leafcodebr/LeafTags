@@ -54,12 +54,6 @@ OBS: Caso queira pegar informações da **tag máxima** do jogador, altere "`_ta
 /* Retornará a API para uso */
 LeafTagsAPI api = LeafTags.getAPI();
 
-/* Fará que quando o jogador entrar, não terá o prefix setado */
-api.setDisableAutoTag(true);
-
-/* Fará que o comando /tag não funcione (RECOMENDADO DESATIVA-LO PELA CONFIG.YML). */
-api.setDisableCommand(true);
-
 /* Retornará a tag máxima do jogador */
 Tag maxTag = api.getMaxTag(player);
 /* Retornará a tag atual do jogador */
