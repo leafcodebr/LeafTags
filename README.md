@@ -4,6 +4,9 @@ Um sistema completo de prefixos para servidores de Minecraft, com várias opçõ
 ## Tutorial
 Este plugin possui um [tutorial oficial](https://youtu.be/Ip27Vz8Jq9Y?t=171) em nosso canal no YouTube!
 
+## API
+Saiba como utilizar em [Wiki API](https://github.com/leafcodebr/LeafTags/wiki).
+
 ## Comandos
 
 |Comando         |Descrição                      |Permissão                    |
@@ -47,34 +50,5 @@ OBS: Caso queira pegar informações da **tag máxima** do jogador, altere "`_ta
 
 - [LeafCore](https://github.com/leafcodebr/LeafCore/releases) - necessário para o funcionamento de todos os plugins Leaf.
 - [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) - para aplicar placeholders e registra-los. (OPCIONAL)
-
-## API - para desenvolvedores.
-**Exemplo de uso:**
-```java
-/* Retornará a API para uso */
-LeafTagsAPI api = LeafTags.getAPI();
-
-/* Retornará a tag máxima do jogador */
-Tag maxTag = api.getMaxTag(player);
-/* Retornará a tag atual do jogador */
-Tag currentTag = api.getCurrentTag(player);
-/* Criará uma nova tag */
-Tag newTag = api.createTag(
-        "example", //id
-        "example", //name
-        "&d", //color
-        "tag.example", //permission
-        "&d[Example] ", //prefix
-        " &d[BEAUTIFUL]", //suffix
-        "&dExample", //preset
-        26, //position
-        Arrays.asList("aliases-here", "aliases-here")); //aliases
-/* Registrando a nova tag */
-api.registerTag(newTag);
-/* Aplicando a nova tag ao jogador */
-api.applyTag(player, newTag);
-
-/* E por fim... Removendo a tag do servidor */
-api.unregisterTag("example");
 ```
 
