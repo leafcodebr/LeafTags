@@ -5,7 +5,7 @@ Um sistema completo de prefixos para servidores de Minecraft, com várias opçõ
 Este plugin possui um [tutorial oficial](https://youtu.be/Ip27Vz8Jq9Y?t=171) em nosso canal no YouTube!
 
 ## API
-Saiba como utilizar em [Wiki API](https://github.com/leafcodebr/LeafTags/wiki).
+Saiba como utilizar em [Wiki API](https://github.com/leafcodebr/LeafTags/wiki/API).
 
 ## Comandos
 
